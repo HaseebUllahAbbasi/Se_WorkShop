@@ -1,5 +1,5 @@
 # Se_WorkShop
-Java Design patterns : Two Days Workshop 
+Java Design patterns : 
 ### 1. Intro 
 ### 3.  Priceples
 ### 4. UML
