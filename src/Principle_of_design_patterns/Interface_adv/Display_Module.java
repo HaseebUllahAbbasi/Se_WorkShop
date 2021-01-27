@@ -1,4 +1,4 @@
-package Principle_of_design_patterns;
+package Principle_of_design_patterns.Interface_adv;
 
 public interface Display_Module
 {

@@ -1,6 +1,4 @@
-package Principle_of_design_patterns;
-
-import org.omg.PortableServer.POA;
+package Principle_of_design_patterns.Interface_adv;
 
 public class Main
 {
