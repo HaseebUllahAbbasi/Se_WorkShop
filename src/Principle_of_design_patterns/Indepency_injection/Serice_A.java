@@ -26,7 +26,7 @@ System.out.println("do some message");
     public static void main(String[] args) {
             Service service = new Serice_A(); //injector
             Client_1 client_1 = new Client_1(service); // injects the via the cons
-        client_1.do_something(); //
+        client_1.do_something(); // // calls the service
         client_1.set_service(service);
     }
 
