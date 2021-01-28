@@ -1,8 +1,8 @@
-package Factory_Design.Intro;
+package Factory_Design.Abstract_Creator;
 
 public abstract class AbstractFactory
 {
-    abstract Color get_color(String color);
+    public abstract Color get_color(String color);
     abstract Shape get_shape(String shape);
 
 }
@@ -11,7 +11,7 @@ class ShapeFactory extends AbstractFactory
 
 
     @Override
-    Color get_color(String color) {
+    public Color get_color(String color) {
         return null;
     }
 
@@ -33,7 +33,7 @@ class ColorFactory extends  AbstractFactory
 {
 
     @Override
-    Color get_color(String color) {
+    public Color get_color(String color) {
         if(color==null)
             return null;
         else  if(color.equalsIgnoreCase("Blue"))

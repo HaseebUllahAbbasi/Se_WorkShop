@@ -1,9 +1,10 @@
-package Factory_Design.Intro;
+package Factory_Design.Static_imp;
 
 public interface Shape
 {
     void draw();
 }
+
 class Rectangle implements  Shape
 {
 
